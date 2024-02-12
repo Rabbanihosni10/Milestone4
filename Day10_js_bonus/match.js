@@ -15,8 +15,6 @@ const products1=[
     {id:5,name: 'samsung phone',price:1900040},
     {id:6,name: 'samsung laptop',price:190004000}
 
-]
-
 function  matchProducts(products1,search){
     for(const num of products1){
         console.log(num.name.includes(search));
